@@ -1,5 +1,5 @@
 {
-  "name": "universal-toast",
+  "name": "@ali/tt-universal-toast",
   "author": "rax",
   "version": "1.0.4",
   "description": "",
@@ -22,6 +22,9 @@
   "engines": {
     "npm": ">=3.0.0"
   },
+  "publishConfig": {
+    "registry": "https://registry.npm.alibaba-inc.com"
+  },
   "devDependencies": {
     "typescript": "^3.7.5",
     "driver-universal": "^3.0.0",
@@ -32,6 +35,6 @@
     "@alib/build-scripts": "^0.1.0"
   },
   "dependencies": {
-    "universal-env": "^3.0.0"
+    "universal-env": "3.2.0-0"
   }
 }
